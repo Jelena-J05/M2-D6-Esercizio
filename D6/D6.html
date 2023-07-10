@@ -1,0 +1,86 @@
+
+<!--
+ESERCIZI IN HTML
+
+// ESERCIZIO 1: Inserisci un tag h1 con il nome del tuo negozio
+// ESERCIZIO 2: Aggiungi una tabella con i 5 prodotti più in vista del tuo negozio
+// ESERCIZIO 3: Aggiungi per ogni prodotto un'immagine, un titolo, una descrizione e un prezzo
+// ESERCIZIO 4: Per ogni elemento della tabella aggiungi un link di Amazon al prodotto esistente
+// ESERCIZIO 5: Aggiungi un footer con il nome e l'indirizzo del tuo negozio
+// ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un commento su un prodotto (al momento non serve inserire nessuna "vera" funzionalità di POST/salvataggio!)-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shop </title>
+<style>
+.new-Link {
+color:blue;
+font-size: x-large;
+}
+
+.class-image {
+visibility: hidden;
+}
+
+</style>
+</head>
+<body>
+    <h1> Smartphone Shop </h1>
+    <table>
+        <tbody> 
+            <tr>
+                <th> Image </th>
+                <th> Amazon Link </th>
+                <th> Description </th>
+                <th> Price </th>
+            </tr>
+            <tr>
+                <td> <img src="assets/Apple iPhone 14 Pro.png" alt="Apple" style="height: 200px; width: 230px;"> </td>
+                <td> <a href="https://www.amazon.co.uk/Apple-iPhone-14-Pro-128/dp/B0BDJ279KF?th=1"> Apple iPhone 14 Pro </a></td>
+                <td> Designed to make a difference.The iPhone 14 Plus comes with 6.1-inch OLED display. </td>
+                <td class="price"> € 1199 </td>
+            </tr>
+            <tr> 
+                <td> <img src="assets/Google Pixel foto.png"  alt="Google" style="height: 350px; width:320px;"> </td>
+                <td> <a href="https://www.amazon.co.uk/Google-Pixel-Unlocked-Smartphone-wide-angle/dp/B0BDK63RF3?th=1"> Google Pixel 7 </a></td>
+                <td> Super helpful.The Pixel 7 comes with 6.3-inch OLED display and Google Tensor G2 processor.  </td>
+                <td class="price"> € 489 </td>
+            </tr>
+            <tr> 
+                <td> <img src="assets/Samsung Galaxy S23 Ultra.png" alt="Samsung" style="height: 200px; width: 200px;"> </td>
+                <td> <a href="https://www.amazon.co.uk/Samsung-Android-Smartphone-Manufacturer-Warranty/dp/B0BS916L3G?th=1"> Samsung Galaxy S23 Ultra </a></td>
+                <td> Simply powerful. Detail Enhancer technology utilizes AI for stunningly high quality photos.  </td>
+                <td class="price"> € 879 </td>
+            </tr>
+            <tr> 
+                <td> <img src="assets/Motorola Moto G62.png" alt="Motorola" style="height: 200px; width: 200px;"> </td>
+                <td> <a href="https://www.amazon.co.uk/Motorola-G62-5G-Midnight-Grey/dp/B09YJ2PTDY/ref=sr_1_1?keywords=motorola%2Bg62%2B5g&qid=1688921113&sr=8-1&th=1"> Motorola Moto G62</a></td>
+                <td> Best sound quality.The Smartphone is powered by Octa-core processor.   </td>
+                <td class="price"> € 879 </td>
+            </tr>
+            <tr> 
+                <td> <img src="assets/Xiaomi 13 Pro.png" alt="Xiaomi" style="height: 200px; width: 200px;"></td>
+                <td> <a href="https://www.amazon.co.uk/Xiaomi-Ceramic-dynamic-display-warranty-Black/dp/B0BYVJHYX2"> Xiaomi 13 Pro</a></td>
+                <td> Capture every detail. The Xiaomi 13 Pro comes with 6.73-inch OLED display. </td>
+                <td class="price"> € 1029 </td>
+            </tr>
+        </tbody>
+    </table>
+        <div> Leave your comment </div>
+        <textarea style="width: 220px; height:80px;"></textarea> <br>
+        <input type="submit" value="Save">
+    <footer>
+        <div> Smartphone Shop </div> 
+        <div id="Address"> Address: Via Filippo Turati 10, 20121 - Milan (MI) </div>
+    </footer>
+    <script src="./D6.js"> </script>
+       
+</body>
+
+</html>
+
+

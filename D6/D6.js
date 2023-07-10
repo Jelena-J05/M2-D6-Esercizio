@@ -33,16 +33,16 @@
 // ESERCIZIO 12: Scrivi una funzione per cambiare il colore del prezzo di ogni prodotto in uno differente, ogni volta che viene invocata
 
         const getRandomColor = function () {
-            const red = Math.round(Math.random() * 255)
-            const green = Math.round(Math.random() * 255)
-            const blue = Math.round(Math.random() * 255)
-            return 'rgb(' + red + ', ' + green + ', ' + blue + ')'
-          }
+        const red = Math.round(Math.random() * 255)
+        const green = Math.round(Math.random() * 255)
+        const blue = Math.round(Math.random() * 255)
+        return 'rgb(' + red + ', ' + green + ', ' + blue + ')'
+        }
     
         const setRandomColor = function () {
-            const randomColor = getRandomColor()
-            let prices = document.querySelectorAll('.price')
-            for (let price of prices) {
-            price.style.color = randomColor
-            }
-            }
+        const randomColor = getRandomColor()
+        let prices = document.querySelectorAll('.price')
+        for (let price of prices) {
+        price.style.color = randomColor
+        }
+        }

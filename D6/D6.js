@@ -5,7 +5,7 @@
             }
 // ESERCIZIO 8: Scrivi una funzione per cambiare il colore di background della pagina
         const ChangeBackground = function () {
-            document.querySelector ('body').style.backgroundColor.innerHTML ='yellow'
+            document.querySelector ('body').style.backgroundColor ='yellow'
             }
 
 // ESERCIZIO 9: Scrivi una funzione per cambiare l'indirizzo presente nel futuro in un altro, fittizio.
